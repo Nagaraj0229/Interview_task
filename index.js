@@ -26,7 +26,6 @@ app.use(
     credentials: true,
   })
 );
-
 connectDB();
 
 registerUser(app);
